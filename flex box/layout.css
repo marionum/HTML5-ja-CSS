@@ -1,0 +1,55 @@
+html{
+    font-size: 62.5%
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:1rem;
+}
+
+p{
+    padding:1rem;
+    font-size: 1.6rem;
+    margin-block-end: 1rem;
+}
+
+h1{
+    font-size: 2.8rem;
+    margin-block-end: 1rem;
+}
+
+.color-red{
+    background-color: red;
+}
+.color-blue{
+    background-color: blue;
+}
+
+.color-green{
+    background-color: green;
+}
+/*kappaleet vierekkäin flexin avulla */
+
+.parent {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.parent>* {
+flex-grow: 1;
+flex-basis: 0;
+order: 2;
+}
+
+.parent h1{
+    flex-basis: 100%;
+    order:1;
+}
+
+.parent .tupla { /*sininen kappale tuplaleveyteen */
+    flex-grow:2;
+}
+
+.parent .ekaksi{ /*vihreä kappale ekaksi*/
+    order:1;
+}

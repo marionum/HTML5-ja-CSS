@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"name": "fontti-muotoilut",
+			"path": "../fontti-muotoilut"
+		},
+		{
+			"name": "Semanttiset tagit",
+			"path": "../Semanttiset tagit"
+		},
+		{
+			"name": "tehtävä1",
+			"path": "../tehtävä1"
+		},
+		{
+			"path": "../vihje-laatikosta"
+		},
+		{
+			"path": "../ flex-harjoitus "
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}

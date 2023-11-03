@@ -1,0 +1,156 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #83c05b;
+}
+
+.main-nav {
+  list-style: none;
+  padding: 0;
+}
+
+.main-nav li {
+  border: 1px solid #618b3e;
+  background-color: #9dcd7c;
+  text-align: center;
+  color: white;
+  padding: 1em;
+  border-radius: 6px;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+a:active {
+  text-decoration: none;
+  color: white;
+}
+
+.section-header {
+  background-color: #cbcbcb;
+  padding: 0.7em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+
+.header-icon {
+  width: 12px;
+}
+.vision-picture {
+  display: none;
+}
+
+.section-image {
+  background-color: white;
+  padding: 14px;
+}
+
+.news-table {
+  background-color: white;
+  padding: 14px;
+  width: 100%;
+}
+footer {
+  background-color: #83c05b;
+  padding: 1em;
+  color: white;
+  border-bottom: 1px solid #25490d;
+}
+
+.footer-icon {
+  width: 16px;
+  fill: white;
+  float: right;
+}
+.anotherfooter-icon {
+  width: 16px;
+  fill: white;
+  float: right;
+  margin-right: 5px;
+}
+
+.news-table {
+  display: flex;
+}
+
+.vision-text {
+  justify-content: center;
+}
+
+@media only screen and (min-width: 426px) {
+  .vision {
+    background-color: #e1cab2;
+    display: flex;
+    align-items: center;
+    border: 16px solid white;
+  }
+
+  .vision-text {
+    font-size: 1.7rem;
+    padding: 16px;
+    justify-content: center;
+  }
+
+  .vision-picture {
+    display: block;
+  }
+
+  .main-nav {
+    display: flex;
+    width: 100%;
+  }
+
+  .main-nav li {
+    flex-grow: 1;
+  }
+
+  .section-header {
+    border: 8px solid white;
+  }
+
+  .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+    background-color: white;
+  }
+
+  .box-specials {
+    width: 50%;
+  }
+
+  .box-events {
+    width: 50%;
+  }
+
+  .box-news {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .box-specials {
+    width: 33.33%;
+  }
+
+  .box-events {
+    width: 33.33%;
+  }
+
+  .box-news {
+    width: 33.33%;
+  }
+}
