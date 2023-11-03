@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap');
+
+body{
+    background-color: rgb(16, 16, 16);
+    color:white;
+    font-size: 12px;
+    font-family: 'Space Grotesk', sans-serif;
+    margin: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+   
+}
+
+.text-desc
+{
+font-size: 25px;
+}
+.container{
+    width: 100%;
+  
+}
+.navbar{
+    font-size: 2em;
+    display:flex;
+    align-items: center;
+}
+.images{
+    position: absolute;
+    right: 1px;
+    display:flex;
+    gap:25px;
+}
+.marionum{
+    position:absolute;
+    z-index: -1;
+    top:1px;
+    right: 80px;
+    height: 70%;
+}
+.head{
+    font-size: 5em;
+}
+.keyes{
+    text-decoration: underline rgb(53, 167, 129);
+    z-index: 1;
+}
+.contact{
+   
+        text-decoration: underline rgb(53, 167, 129);
+        border: none;
+        color: white;
+        font-size: large;
+        text-transform: uppercase;
+}
+.contact:hover{
+    background-color: rgb(181, 163, 135);
+}
+
+hr{
+    margin-top: 200px;
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom:150px;
+}
+.skills-1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.skills-2{
+display:flex;
+margin-right: 50px;
+justify-content: space-around;
+}
+
+.ring{
+    position: absolute;
+    right: -19%;
+}
+
+.bar{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.pro-box > img{
+    max-width: 75%;
+    max-height: 75%;
+}
+.projekt{
+    
+    display:flex;
+    flex-direction: row;
+}
+.pro-box{
+
+    display: flex;
+    flex-direction: column;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+}
+.head-contact{
+    font-size: 5em;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 25px;
+}
+.contact-div{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+input{
+    background:gray;
+    width: 300px;
+    height: 50px;
+}
+.textarea{
+    height:100px;
+}
+.submit{
+    text-decoration: underline rgb(53, 167, 129);
+    border: none;
+    color: black;
+    background: black;
+    font-family: inherit;
+    color: white;
+    font-size: large;
+}
+input{
+    background: none;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.submit{
+    background: none;
+}
+.footer{
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+}
+.ring-3{
+    position: absolute;
+    left: -15%;
+}
+.main{
+    margin-bottom:350px;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .marionum {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        height: 55%;
+        Padding-top:100px; 
+
+    }
+
+    .head {
+        font-size: 2.5em;
+    }
+.description {
+        font-size: 1.2em;
+        margin-bottom: 100px;
+    }
+}
+
+    .navbar {
+        font-size: 1.2em;
+    }
+
+   
+    
+    .contact {
+        font-size: 1em;
+    }
+
+    .head-contact {
+        font-size: 2em;
+    }
+
+    .box {
+        margin-bottom: 20px;
+    }
+
+    .skills-1,
+    .skills-2 {
+        flex-direction: column;
+    }
+
+  
+    .ring-3 {
+        display: block;
+        position: relative;
+        left: 0;
+        margin: 0 auto;
+    }
+
+    .footer {
+        font-size: 1em;
+    }
+
+
+/* Tablet */
+@media (max-width: 900px) {
+    .head {
+        font-size: 2.5em;
+    }
+
+    .navbar {
+        font-size: 1.3em;
+    }
+
+    .marionum {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        height: 55%;
+        Padding-top:100px; 
+    }
+
+    .keyes,
+    .contact {
+        font-size: 1.2em;
+    }
+
+    .head-contact {
+        font-size: 2.5em;
+    }
+
+    .box {
+        margin-bottom: 30px;
+    }
+
+   
+
+    .ring-3 {
+        display: block;
+        position: relative;
+        left: 0;
+        margin: 0 auto;
+    }
+
+    .footer {
+        font-size: 1.2em;
+    }
+}

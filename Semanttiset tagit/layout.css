@@ -1,0 +1,83 @@
+html{
+    font-size: 62,5%;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.6rem;
+
+    }
+
+    /* Määritellään Flexin avulla vanhempi (body) ja sen lapset ( header, nav, section, aside, footer)*/
+
+    body {
+        display: flex; /* otetaan flex käyttöön vanhemmassa*/
+        flex-direction: row; /*määritellään Flexin suunnaksi row(rivi) */
+        flex-wrap: wrap; /*vanhemman lapset voivat rivittyä (allekkain)*/
+    }
+    body > * {
+        flex-grow: 1; /*jos flex-grow on lapsissa sama -> lapset yhtä leveitä*/
+        flex-basis:100%;  /*lapsen minimileveys */
+    } /* bodyn lapset */
+
+
+    body section, body aside{ flex-basis: 0;}
+    
+    body section {
+        flex-grow: 2; /*section on tuplasti asiden levyinen*/
+    }
+
+    header{
+        background-color: red;
+        padding: 1rem;
+        color: white;
+
+    }
+
+    nav {
+
+        background-color: orange;
+        padding: 1rem;
+        color: white;
+
+    }
+    section {
+        background-color: rgb(218, 218, 76);
+        padding: 1rem;
+        color: white;
+
+    }
+
+    section p {
+        margin-block-end:1rem;
+
+    }
+
+    article {
+
+        background-color: green;
+        padding: 1rem;
+        color: white;
+        margin-block-end: 1rem;
+
+    }
+    aside {
+
+        background-color: blue;
+        padding: 1rem;
+        color: white;
+      
+       
+
+    }
+    footer {
+
+        background-color: purple;
+        padding: 1rem;
+        color: white;
+
+    }
+
+    .oikealle{
+        float: right;
+    } 

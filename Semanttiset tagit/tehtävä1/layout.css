@@ -1,0 +1,159 @@
+html {
+font-size: 62.5%; /*base font size:62.5% x 16px = 10px */
+}
+
+body {
+    margin:1rem;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+h1,
+h2,
+h3,
+p,
+pre, 
+ul 
+section{
+ margin-block-end: 1rem;
+}
+section {
+    background-color: #bbddee;
+    padding:1 rem; 
+}
+h1{
+    font-size:3.2rem;
+}
+
+h2 {
+    font-size: 2.8rem;
+    text-transform: lowercase;
+    letter-spacing: 3px;
+}
+
+h3 {
+    font-size: 2.4rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+pre {
+    font-size: 1.6rem;
+    font-family: 'Courier New', Courier, monospace;
+    padding-block-start: 2rem;
+}
+
+ul {
+    font-size: 1.6rem;
+}
+/*CLASS-tyyppiset säännöt*/
+
+.iso-kirjain {
+    float: left;
+    font-size: 500%;
+    width:1.2em;
+    text-align: center;
+    padding: 0.1em 0.1em 0;
+    background: #568;
+    color: white;
+    border:solid white 1px;
+    border-width: 0 0.2em 0.2em 0;
+    margin: -0.5rem 0.5em 0.2em -0.5rem; 
+}
+
+/*ID-tyyppiset säännöt*/
+
+#pikkukuva-vasen-ylänurkka {
+    float:left;
+    margin: 0rem  1rem 1rem 0rem;
+    display:  block;  /* kuvasta responsiivinen */
+    width: 9rem;
+
+}
+
+#pikkukuva-vasen-ylänurkka img {
+    max-width: 95%; /* kuvasta responsiivinen */
+}
+
+/*3. laatikon bannerit paikoilleen*/
+
+.banner1 {
+
+    float: left;
+    font-size: 150%;
+    text-align: center;
+    height: 2em;
+    padding: 1rem;
+    background: rgb(233, 235, 239);
+    color: black;
+    border:double black 1px;
+    border-radius: 5px;
+    border-left-width: 0 0.5em 0.5em 0;
+    text-transform: lowercase;
+    letter-spacing: 3px;
+    
+    
+
+
+}
+
+.banner2{
+
+    float: right;
+    font-size: 200%;
+    height: 2em;
+    text-align: center;
+    padding: 0 0.1em 0.1em 0;
+    background: rgb(233, 235, 239);
+    color: black;
+    border: double black 1px;
+    border-radius: 5px;
+    border-left-width: 0 0.2em 0.2em 0;
+   
+}
+
+
+#box3 .banner1 {
+    float: left;
+    background-color: white;
+    padding: 1rem;
+    width: 40rem;
+    margin-inline-end: 2rem;
+    margin-block-end: 2rem;
+    margin-inline-start: -11px;
+    margin-block-start: -11px;
+    border: double black 1px;
+    border-block-start: 0;
+    border-inline-start: 0 ;
+    text-align: left; 
+    font-size: 100%; 
+    font-weight: bold; 
+    font-style: italic; 
+    padding: 1em; 
+    text-indent: -0.5em; 
+    color: black; 
+    border: solid black 1px;
+    border-width: 1px 0 1px 1px; 
+    margin: 0.2em -1px 0.2em 0.5em;
+    
+}
+
+#box3 .banner2 {
+    float: right; 
+    width: 25%; 
+    text-align: left; 
+    font-size: 200%; 
+    font-weight: bold; 
+    font-style: italic; 
+    padding: 1em; 
+    text-indent: -0.5em; 
+    background: white; 
+    color: black; 
+    border: solid black 1px;
+    border-width: 1px 0 1px 1px; 
+    margin: 0.2em -1px 0.2em 0.5em;}
+
+
+
+

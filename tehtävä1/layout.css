@@ -1,0 +1,146 @@
+html {
+font-size: 62.5%; /*base font size:62.5% x 16px = 10px */
+}
+
+body {
+    margin:1rem;
+}
+
+h1,
+h2,
+h3,
+p,
+pre, 
+ul 
+section{
+ margin-block-end: 1rem;
+}
+section {
+    background-color: #bbddee;
+    padding:1 rem; 
+}
+h1{
+    font-size:3.2rem;
+}
+
+h2 {
+    font-size: 2.8rem;
+    text-transform: lowercase;
+    letter-spacing: 3px;
+}
+
+h3 {
+    font-size: 2.4rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+pre {
+    font-size: 1.6rem;
+    font-family: 'Courier New', Courier, monospace;
+    padding-block-start: 2rem;
+}
+
+ul {
+    font-size: 1.6rem;
+    list-style-type: disc;
+    margin-left: 2em;
+}
+/*CLASS-tyyppiset säännöt*/
+
+.iso-kirjain {
+    float: left;
+    font-size: 500%;
+    width:1.2em;
+    text-align: center;
+    padding: 0.1em 0.1em 0 !important;
+    background: #568;
+    color: white;
+    border:solid white 1px;
+    border-width: 0 0.2em 0.2em 0;
+    margin: -0.5rem 0.5em 0.2em -0.5rem; 
+
+}
+
+/*ID-tyyppiset säännöt*/
+
+#pikkukuva-vasen-ylänurkka {
+    float:left;
+    margin: 0rem  1rem 1rem 0rem;
+    display:  block;  /* kuvasta responsiivinen */
+    width: 9rem;
+
+}
+
+#pikkukuva-vasen-ylänurkka img {
+    max-width: 95%; /* kuvasta responsiivinen */
+}
+
+/*3. laatikon bannerit paikoilleen*/
+
+.box {
+    background-color: #88AABB;
+    text-align: right;
+    font-size: 16pt;
+    padding-top: 0.5em;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+}
+
+
+
+
+#box3 {
+    position: relative;
+    border: 3px double black;
+    
+
+}
+
+
+#box3 .banner1 {
+    background-color: white;
+    padding: 1rem;
+    width: 40rem;
+    text-align: left; 
+    font-size: 120%; 
+    font-weight: bold; 
+    font-style: italic; 
+    padding: 1em; 
+    color: black; 
+    border: 1px solid black;
+   float: left;
+}
+
+#box3 .banner2 {
+    float: right; 
+    width: 25%; 
+    text-align: left; 
+    font-size: 200%; 
+    font-weight: bold; 
+    font-style: italic; 
+    padding: 1rem; 
+    text-indent: -0.5em; 
+    background-color: white; 
+    color: black; 
+    border: solid black 1px;
+    border-width: 1px 0 1px 1px; 
+    margin-left: 1em;
+    margin-right: -3px;
+    border-right: none;
+}
+
+#box3 p {
+    padding: 1em;
+}
+
+.box1 p {
+    padding: 1em;
+    
+}
+
+
+
+

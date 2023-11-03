@@ -1,0 +1,192 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #413f3fe1;
+}
+.header {
+  background-color: #060c01;
+  color: white;
+}
+/* 
+.header > * {
+  padding: 1rem;
+  flex-grow: 1;
+  flex-basis: 100%;
+  flex-direction: row;
+  overflow: hidden;
+  width: 100%;
+  top: 0;
+} */
+.main {
+  background-color: #413f3fe1;
+  padding: 2.5rem;
+  margin-top: 56px;
+}
+
+.maintext {
+  /* text-align: center; */
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  color: orange;
+  padding: 48px;
+  background-image: url(background-picture.jpeg);
+  background-size: contain;
+}
+
+.maintext-box {
+  background-color: rgb(77 73 73 / 50%);
+  padding: 1rem;
+}
+
+.boxes {
+  background-color: azure;
+  padding: 1.5rem;
+}
+.text {
+  color: white;
+}
+
+.section2 {
+  color: bisque;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #060c01;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 1rem;
+  z-index: 1; /* So that it will be on top of other elements */
+  display: flex;
+  gap: 16px;
+  height: 56px;
+}
+
+.nav-right {
+  margin-left: auto;
+}
+
+/* .navbar a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a.left {
+  float: left;
+} */
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+a:active {
+  text-decoration: none;
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.separator {
+  height: 5px;
+  margin: 20px 0;
+}
+
+.footer {
+  color: bisque;
+  padding: 2.5rem;
+  background-color: #413f3fe1;
+}
+
+.second {
+  padding: 2.5rem;
+  background-color: #413f3fe1;
+}
+
+#kuva {
+  float: right;
+  margin: 0 0 0 15px;
+}
+
+#toinenkuva {
+  float: left;
+  margin: 0 15px 0 0;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type="text"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+  background-color: bisque;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+@media (width >= 1024px) {
+  .row {
+    flex-direction: row;
+  }
+  .column {
+    width: calc(100% / 3);
+  }
+}
