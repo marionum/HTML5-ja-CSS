@@ -1,0 +1,145 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 1rem;
+  background-color: darkcyan;
+  padding: 10px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.wrapper > * {
+  padding: 1rem;
+  flex-grow: 1;
+  flex-basis: 100%;
+}
+
+.header {
+  background-color: gold;
+}
+.main-nav {
+  background-color: bisque;
+}
+
+.main {
+  background-color: rgba(249, 152, 34, 0.944);
+}
+
+.aside-1 {
+  background-color: mediumseagreen;
+}
+
+.aside-2 {
+  background-color: seagreen;
+}
+
+.footer {
+  background-color: lightgreen;
+}
+
+@media only screen {
+  body {
+    background-color: darkcyan;
+  }
+  .wrapper {
+    flex-direction: row;
+  }
+
+  .aside-1 {
+    flex-basis: auto;
+  }
+
+  .aside-2 {
+    flex-basis: auto;
+  }
+
+  .main-nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: -1rem -1rem -1rem -5rem;
+  }
+
+  .main-nav ul > * {
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: center;
+    padding: 1rem;
+    border: solid 1px;
+  }
+
+  .some-nav {
+    margin: -2rem -1rem -2rem -5rem;
+  }
+  .some-nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .some-nav ul > * {
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: center;
+    padding: 0rem;
+  }
+
+  .some-nav ul .facebook {
+    background-color: blue;
+    fill: white;
+  }
+
+  .some-nav ul .twitter {
+    background-color: aqua;
+    color: white;
+  }
+
+  .some-nav ul .email {
+    background-color: rgb(206, 207, 200);
+    color: white;
+  }
+
+  .some-nav ul .icon {
+    fill: white;
+    width: 3.2rem;
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  body {
+    background-color: darkcyan;
+  }
+  .aside-1 {
+    order: 1;
+    flex-basis: 0;
+    flex-grow: 4;
+  }
+
+  .main {
+    order: 2;
+    flex-basis: 400px;
+  }
+
+  .some-nav {
+    order: 4;
+    margin: -2rem -1rem -2rem -5rem;
+  }
+
+  .aside-2 {
+    order: 3;
+    flex-basis: 0px;
+    flex-grow: 4;
+  }
+
+  .footer {
+    order: 5;
+  }
+}

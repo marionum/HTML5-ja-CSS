@@ -1,0 +1,83 @@
+  
+  @media only screen and (min-width: 426px) { 
+    body {
+      background-color: rgb(230, 235, 235);
+    }
+    .wrapper {
+      flex-direction: row;
+    }
+
+    .main {
+        background-color:#E1D6B9;
+        background-image: url ('vision-image.png');
+        background-repeat: no-repeat;
+        padding-left: 30px;
+    }
+    .aside-2 {
+        order: 2;
+        flex-basis: 0;
+        flex-grow: 4;
+    
+      }
+    
+    
+    
+      .aside-1{
+        order: 3;
+        flex-basis: 0px;
+        flex-grow: 4;
+      }
+    .aside-3
+    {
+      order: 5;
+     
+    }
+    .footer {
+        order: 6;
+        }
+        
+    .main-nav ul {
+
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      margin:  2rem -2rem -2rem -6rem;
+    
+    }
+  
+    .main-nav ul > * {
+      flex-grow: 1;
+      flex-basis: 0;
+      text-align: center;
+      border: solid 1px;
+      border-radius: 15px;
+      background: #9DCD7C;
+      padding: 20px;
+  
+    }
+  
+    .some-nav {
+      margin: 5rem 2rem 2rem 2rem;
+    }
+    .some-nav ul {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+    }
+  
+    .some-nav ul > * {
+      flex-grow: 1;
+      flex-basis: 0;
+      text-align: center;
+      padding: 0rem;
+    }
+  
+  
+    .some-nav ul .icon {
+      fill: white;
+      width: 3.2rem;
+      display: inline-block;
+    }
+    
+  }
+  
